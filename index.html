@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekhar Nandanwar - Portfolio</title>
+    <meta name="description" content="Personal portfolio of Shekhar Nandanwar">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">SN</a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Shekhar Nandanwar</span></h1>
+                <div class="typing-container">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">Building innovative solutions and creating meaningful experiences</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <!-- INSTRUCTION: Replace 'placeholder-image.jpg' with your actual profile photo -->
+                    <div class="image-placeholder">
+                        <!-- <i class="fas fa-user fa-5x"></i> -->
+                        <!-- <p>Add Your Photo Here</p> -->
+                        <img src="assets/profile-photo.jpeg" alt="Shekhar Nandanwar">
+
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm Shekhar</h3>
+                    <p>I’m an electronics engineer passionate about robotics, IoT, and embedded systems. I enjoy designing intelligent hardware solutions — from ESP32 projects to autonomous robots — blending creativity with technical precision. Currently, I’m exploring firmware development and AI-powered embedded systems. </p>
+                    <p>My journey has been marked by continuous learning, collaboration, and a drive to solve complex challenges. I believe in the power of technology to transform ideas into reality.</p>
+                    
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>shekharnandanwar95@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mumbai</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Electronics engineer</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shekhar-nandanwar-4a5729152/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/shekhar1995-c" target="_blank" class="social-icon">
+                          <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title">Skills & Expertise</h2>
+
+        <div class="skills-grid">
+            <!-- Edge Computing -->
+              <div class="skill-card">
+                <div class="skill-icon">
+                  <i class="fas fa-robot"></i>
+                </div>
+                <h3>Edge AI & Robotics</h3>
+                <p>Raspberry Pi 4, Jetson Nano, ROS/ROS2</p>
+              </div>
+            
+          <!-- Programming -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Programming</h3>
+            <p>Python, C/C++, Embedded C</p>
+          </div>
+
+          <!-- PCB Design -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>PCB Design</h3>
+            <p>KiCad, EasyEDA, Circuit Simulation</p>
+          </div>
+
+          <!-- Embedded Systems -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-microchip"></i>
+            </div>
+            <h3>Embedded Systems</h3>
+            <p>ESP32, STM32, Arduino, Raspberry pi pico</p>
+          </div>
+
+          <!-- IoT & Cloud -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <h3>IoT & Cloud</h3>
+            <p>MQTT, REST APIs, Web Dashboard</p>
+          </div>
+        </div>
+      </div>
+        
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <!-- INSTRUCTION: Add your actual work experience from LinkedIn -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - Present</div>
+                        <h3>Sr Electronic Engineer</h3>
+                        <h4>SwiftRobotics</h4>
+                        <p>Designed, prototyped, and tested embedded PCBs for autonomous robots, including motion-sensing safety modules for UV-C hospital disinfection systems.
+                            • Developed a UV robot module powered via 24V DC battery with inverter for 230V AC ballast control.
+                            • Integrated navigation and mapping sensors (Intel D455 camera, RPLIDAR series) with ROS1 Melodic on Jetson Nano B01.
+                            • Designed custom carrier boards for Jetson Orin NX, implemented hardware improvements, and validated performance.
+                            • Managed sensor calibration, motor control systems, and power distribution boards for multiple robot modules</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2020</div>
+                        <h3>Electronic Testing Engineer</h3>
+                        <h4>Marine Electricals Ltd</h4>
+                        <p>D• Tested and repaired power supply circuits, UPS systems, relays, and navigation panels.
+                            • Delivered over 10,000 production-ready PCBs while leading a small electronics team.
+                            • Enhanced ISO-compliant testing documentation for increased process efficiency</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2019</div>
+                        <h3>Train Pilot</h3>
+                        <h4>Metro One Operations Pvt Ltd</h4>
+                        <p>Coordinated with control center and station teams to manage schedules, handle emergencies, and resolve service disruptions.
+                        Ensured passenger safety through continuous system monitoring and proactive hazard prevention.
+                        • Conducted pre-operation and post-operation inspections to ensure train readiness and reliability</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- INSTRUCTION: Add your actual projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <!-- <i class="fas fa-image fa-3x"></i> -->
+                            <img src="assets/project1.jpeg" alt="Project 1">
+
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cold chain Monitor using EC200 modem</h3>
+                        <p>Developed an IoT-based cold chain monitoring system that tracks temperature and GPS location of refrigerated vehicles in real time. The system uses a Quectel EC200 4G LTE modem to transmit sensor data to a TCP server for remote monitoring, ensuring temperature-sensitive goods like food and pharmaceuticals remain within safe limits during transportation..</p>
+                        <div class="project-tags">
+                            <span class="tag">EasyEDA</span>
+                            <span class="tag">PCB Design</span>
+                            <span class="tag">EC200 4G Modem</span>
+                            <span class="tag">Raspberry pi PICO</span>
+                        </div>
+                        <div class="project-links">
+                          <a href="https://github.com/shekhar1995-c/4G-LTE-Modem-Pico" target="_blank" class="project-link">
+                          </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <!-- <i class="fas fa-image fa-3x"></i> -->
+                            <img src="assets/project2.jpeg" alt="Project 2">
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Breadboard Power Supply</h3>
+                        <p>A compact breadboard power supply circuit designed using KiCad, providing selectable 3.3V and 5V regulated output for quick prototyping and embedded electronics development. The module can be directly plugged into a standard breadboard, making it ideal for powering microcontrollers and IoT circuits during testing and experimentation.</p>
+                        <div class="project-tags">
+                            <span class="tag">KiCAD</span>
+                            <span class="tag">PCB Design</span>
+                            <span class="tag">Hardware Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/shekhar1995-c/Breadboard-power-supply" target="_blank" class="project-link">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-image fa-3x"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ESP32 Projects</h3>
+                        <p>We used the Wokwi simulation to do projects using ESP32.</p>
+                        <div class="project-tags">
+                            <span class="tag">Wokwi</span>
+                            <span class="tag">ESP32</span>
+                   
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/shekhar1995-c/ESP32-Wokwi" target="_blank" class="project-link">
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>shekharnandanwar95@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Mumbai, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Shekhar Nandanwar. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/shekhar-nandanwar-4a5729152/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
